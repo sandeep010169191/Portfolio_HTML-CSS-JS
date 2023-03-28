@@ -1,0 +1,101 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Portfolio Website
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+        <script defer src="index.js"></script>
+    </head>
+    <body>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#subscribe">Subscribe Me</a></li>
+            </ul>
+        </nav>
+
+        <section id="home">
+            <div class="main">
+                <h1 class="headings">Hi there,<br>I'm Sandeep</h1>
+                <button class="btn">
+                    Download Resume
+                </button>
+            </div>
+        </section>
+
+        <section id="about">
+            <h1 class="headings">ABOUT ME</h1>
+            <div id="pic">
+                <img src="img2.jpeg">
+                <div id="intro">
+                    <h2>Sandeep Chakraborty</h2>
+                    <p>I am a Associate Software Engineer at Ernt and Young Global Delivery Service also known as EY GDS. I have joined here on 27th February, 2023 i.e. I am working for last 1 month as of now. In the meanwhile I am ungoing traing on HTML, CSS, Javascript and Java from last week on 23rd March, 2023 which is for 41 days till 24th of May, 2023</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h1 class="headings">PROJECTS</h1>
+            <div class="gallery">
+                <a href=#><img src="img3.jpeg"></a>
+                <a href=#><img src="img4.jpeg"></a>
+            </div>
+        </section>
+
+        <section id="experience">
+            <h1 class="headings">EXPERIENCES</h1>
+            <div class="ex">
+                <p>I was an Integration Engineer at Ericsson India Global Services Pvt. Ltd. for last 1 year from March 2022 to February 2023</p>
+                <p>I have 6 months internship experience at Knoldus Inc. as a Software Engineer from August 2021 to February 2022</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h1 class="headings">CONTACT</h1>
+            <form action="" class="form">
+                <input type="text"name="name" class="input" placeholder="Enter your full name here">
+                <input type="email" name="email" class="input" placeholder="Enter your email">
+                <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter your query"></textarea>
+                <input type="submit" value="SEND" id="send">
+            </form>
+        </section>
+
+        <section id="subscribe">
+        <div class="container">
+            <form id="form" action="/">
+                <h1>SUBSCRIBE</h1>
+                <div class="input-control">
+                    <label for="username">Name</label>
+                    <input id="username" name="username" type="text">
+                    <div class="error"></div>
+                </div>
+                <div class="input-control">
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="text">
+                    <div class="error"></div>
+                </div>
+                <div class="input-control">
+                    <label for="password">Password</label>
+                    <input id="password"name="password" type="password">
+                    <div class="error"></div>
+                </div>
+                <div class="input-control">
+                    <label for="password2">Password again</label>
+                    <input id="password2"name="password2" type="password">
+                    <div class="error"></div>
+                </div>
+                <button type="submit">Sign Up</button>
+            </form>
+        </div>
+        </section>
+    </body>
+</html>
